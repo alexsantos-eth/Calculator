@@ -1,0 +1,12 @@
+{
+  "name": "Calculator",
+  "short_name": "Calculator",
+  "start_url": "./?utm_source=web_app_manifest",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#2196F3", 
+  "scope":"./", 
+  "display":"standalone", 
+  "orientation":"portrait", 
+  "lang":"es"
+}

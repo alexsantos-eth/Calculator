@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="MobileOptimized" content="yes">
+  <meta name="HandheldFriendly" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <link href="style.css" rel="stylesheet">
+  <meta name="theme-color" content="lightskyblue">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="manifest" href="./manifest.json">
+  <title>Calculator</title>
+</head>
+<body>
+  
+  <div id="mainGrid">
+    <div id="ans">
+      <textarea readonly id="area"></textarea>
+      <input readonly id="resp"/>
+    </div>
+    <ul id="keyboard">
+     <li>C</li>
+     <li>÷</li>
+     <li>×</li>
+     <li>«</li>
+     <li>7</li>
+     <li>8</li>
+     <li>9</li>
+     <li>-</li>
+     <li>4</li>
+     <li>5</li>
+     <li>6</li>
+     <li>+</li>
+     <li>1</li>
+     <li>2</li>
+     <li>3</li>
+     <li>%</li>
+     <li>0</li>
+     <li>.</li>
+     <li id="eq">=</li>
+    </ul>
+  </div>
+</body>
+<script src="main.js" ></script>
+</html>

@@ -1,0 +1,101 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Verdana;
+   user-select: none;
+}
+
+ul{
+  list-style: none;
+}
+h1{
+  width:100%;
+  text-align:center;
+  text-transform:uppercase;
+}
+body{
+  background-color:#ddd;
+}
+input{
+ border:none;
+ outline:none;
+}
+#mainGrid{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  border-radius:7px;
+  overflow:hidden;
+  box-shadow:0 0 40px rgba(0,0, 0,.2);
+}
+#ans{
+  width:329px;
+  background:#fff;
+  
+  text-align:right;
+  font-weight:bold;
+}
+#ans #resp{
+  text-align:right;
+  font-weight:bold ;
+  width:100%;
+  font-size:20px;
+  padding: 0 20px 20px 0;
+  color:#555;
+} 
+#ans textarea{
+font-size:30px;
+
+  margin:0;
+  border:none;
+  outline:none;
+  padding:20px;
+  text-align:right ;
+  width:100%;
+  font-size:30px;
+  font-weight:bold;
+  height:50px;
+  overflow:hidden;
+}
+
+
+#keyboard{
+  width:329px;
+  display:grid;
+  grid-template-columns:80px 80px 80px 80px;
+  grid-template-rows:80px 80px 80px 80px 80px;
+  grid-gap:3px;
+  background:#fff;
+}
+
+#keyboard li{
+  height: 100%;
+  width:100%;
+  font-weight:bold;
+  padding:25px 0 0 0;
+  text-align:center;
+  font-size:25px;
+  background:#eee;
+  color:#777;
+  transition:all 0.15s ease-in;
+}
+
+#keyboard #eq{
+  grid-row:4/6;
+  grid-column:4/5;
+  font-size:40px;
+  padding-top:58px;
+  background:lightskyblue;
+  color:#fff;
+}
+.btn{
+  box-shadow:0 0 30px rgba(0,0, 0,.2);
+  transform:scale(1.2,1.2);
+}
+
+
+#keyboard li:hover{
+  z-index:2;
+}
