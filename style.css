@@ -5,10 +5,10 @@
   font-family:Verdana;
    user-select: none;
 }
-.add-button{
+/*.add-button{
 position:absolute;
 opacity:0;
-}
+}*/
 ul{
   list-style: none;
 }
